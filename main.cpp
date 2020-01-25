@@ -19,17 +19,17 @@ int main()
 	const int numStations = 10;
 	users.reserve(numStations);
 	
-	baseStations.emplace_back(BaseStation(20 MHz, Vector2D(10, 10)));
-	baseStations.emplace_back(BaseStation(20 MHz, Vector2D(10, 20)));
-	baseStations.emplace_back(BaseStation(20 MHz, Vector2D(10, 30)));
-	baseStations.emplace_back(BaseStation(20 MHz, Vector2D(10, 40)));
-	baseStations.emplace_back(BaseStation(20 MHz, Vector2D(10, 50)));
+	baseStations.emplace_back(BaseStation(400, Vector2D(10, 10)));
+	baseStations.emplace_back(BaseStation(400, Vector2D(10, 20)));
+	baseStations.emplace_back(BaseStation(400, Vector2D(10, 30)));
+	baseStations.emplace_back(BaseStation(400, Vector2D(10, 40)));
+	baseStations.emplace_back(BaseStation(400, Vector2D(10, 50)));
 
-	baseStations.emplace_back(BaseStation(20 MHz, Vector2D(90, 10)));
-	baseStations.emplace_back(BaseStation(20 MHz, Vector2D(90, 20)));
-	baseStations.emplace_back(BaseStation(20 MHz, Vector2D(90, 30)));
-	baseStations.emplace_back(BaseStation(20 MHz, Vector2D(90, 40)));
-	baseStations.emplace_back(BaseStation(20 MHz, Vector2D(90, 50)));
+	baseStations.emplace_back(BaseStation(400, Vector2D(90, 10)));
+	baseStations.emplace_back(BaseStation(400, Vector2D(90, 20)));
+	baseStations.emplace_back(BaseStation(400, Vector2D(90, 30)));
+	baseStations.emplace_back(BaseStation(400, Vector2D(90, 40)));
+	baseStations.emplace_back(BaseStation(400, Vector2D(90, 50)));
 
 	for (auto&& user : users)
 	{
